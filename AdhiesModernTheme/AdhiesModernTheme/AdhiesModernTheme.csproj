@@ -53,6 +53,7 @@
     <Content Include="Scripts\AdhiesModernTheme.js" />
     <Content Include="Styles\little-right-metro-arrow-white.png" />
     <Content Include="Styles\right-metro-arrow-white.png" />
+    <Content Include="Styles\Menu.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Web.config" />
     <Content Include="Content\segoe-webfont.eot" />
@@ -65,7 +66,9 @@
     <Content Include="Views\Branding.cshtml" />
     <Content Include="Views\Layout.cshtml" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\Web.config" />
+    <Content Include="Scripts\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -31,12 +31,13 @@
     var tag = Tag(Model, "div");
 
     Style.Include("Site.css");
+    Style.Include("Menu.css");
     Script.Include("AdhiesModernTheme.js");
 }
 
 @tag.StartElement
 
-<div id="layout-wrapper">
+<div id="layout-wrapper" class="hide-menu">
 
     <div id="layout-topBar" class="row">
         <div id="topBar" class="col">

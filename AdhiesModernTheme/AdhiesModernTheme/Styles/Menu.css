@@ -1,0 +1,34 @@
+﻿.hide-menu .widget-menu-widget {
+    visibility: hidden;
+}
+
+.widget-menu-widget nav > ul > li > a > span.icon {
+    font-weight: bold;
+    font-family: Consolas;
+    margin-right: 2px;
+    border: 1px solid #1ba1e2;
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+    font-size: 90%;
+    color: transparent;
+    text-shadow: 0 0 0 #1ba1e2;
+}
+
+.widget-menu-widget header > h1 > span.icon {
+    font-weight: bold;
+    font-family: Consolas;
+    margin-right: 6px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    width: 41px;
+    color: transparent;
+    text-shadow: 0 0 0 white;
+}
+
+#layout-navigation .widget-menu-widget nav > ul > li > a > span.icon,
+#layout-navigation .widget-menu-widget header > h1 > span.icon {
+    border: 1px solid #fff;
+    text-shadow: 0 0 0 #fff;
+}
